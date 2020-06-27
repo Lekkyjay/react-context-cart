@@ -1,32 +1,16 @@
-import React, { createContext, useReducer } from 'react'
-import Reducer from './Reducer'
+import React, { createContext, useState } from 'react'
 import cartItems from '../Cart-items'
 
-// Initial state
-// const initialState = cartItems
-
 //Create global context
-export const GlobalContext = createContext(cartItems);
+export const GlobalContext = createContext();
 
+//Create global state provide it inside a provider
 export const GlobalProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(Reducer, cartItems);
-  // const [cart, setCart] = useState([]);
-
-
-  function increaseAmount(id) {
-    dispatch({
-      type: 'INCREASE_AMOUNT',
-      payload: id
-    })
-  }
+  const [cart, setCart] = useState(cartItems);
 
   return (
-    <GlobalContext.Provider value={{ name: 'Hello world', cart: cartItems, state, increaseAmount }}>
-        {children}
-  </GlobalContext.Provider>
-  // return (
-  //   <GlobalContext.Provider value={[cart, setCart]}>
-  //       {children}
-  // </GlobalContext.Provider>
+    <GlobalContext.Provider value={[cart, setCart]}>
+      {children}
+    </GlobalContext.Provider>
   );
 }
