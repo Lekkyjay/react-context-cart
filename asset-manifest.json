@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-context-cart/static/css/main.cc390d1e.chunk.css",
+    "main.js": "/react-context-cart/static/js/main.39685d08.chunk.js",
+    "main.js.map": "/react-context-cart/static/js/main.39685d08.chunk.js.map",
+    "runtime-main.js": "/react-context-cart/static/js/runtime-main.5e5e9eb9.js",
+    "runtime-main.js.map": "/react-context-cart/static/js/runtime-main.5e5e9eb9.js.map",
+    "static/js/2.15070a86.chunk.js": "/react-context-cart/static/js/2.15070a86.chunk.js",
+    "static/js/2.15070a86.chunk.js.map": "/react-context-cart/static/js/2.15070a86.chunk.js.map",
+    "index.html": "/react-context-cart/index.html",
+    "precache-manifest.89c185cd2d3df2e94384c93f3944df02.js": "/react-context-cart/precache-manifest.89c185cd2d3df2e94384c93f3944df02.js",
+    "service-worker.js": "/react-context-cart/service-worker.js",
+    "static/css/main.cc390d1e.chunk.css.map": "/react-context-cart/static/css/main.cc390d1e.chunk.css.map",
+    "static/js/2.15070a86.chunk.js.LICENSE.txt": "/react-context-cart/static/js/2.15070a86.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e5e9eb9.js",
+    "static/js/2.15070a86.chunk.js",
+    "static/css/main.cc390d1e.chunk.css",
+    "static/js/main.39685d08.chunk.js"
+  ]
+}
